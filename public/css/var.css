@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Teko:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+:root {
+  --primary-yellow: #faa000;
+  --off-yellow: #fff6e6;
+  --dark-yellow:rgba(249, 160, 2, 0.1);
+  --primary-brown: #774421;
+  --font-inter: "inter";
+  --font-teko: "teko";
+  --font-ita:"italianno";
+  --black: #000000;
+  --white: rgb(226, 223, 223);
+  --off-blue: #3482de;
+  --box-shadow: 0 2px 4px 1px #cccccc;
+  --border-radius: 4px
+}

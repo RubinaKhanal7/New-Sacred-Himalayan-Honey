@@ -1,0 +1,208 @@
+@import url("./var.css");
+
+.aboutherosection {
+  display: flex;
+  justify-content: center;
+  background: var(--primary-brown);
+  padding:32px;
+}
+
+.aboutherosection h2,
+.aboutherosection p {
+  color: var(--white) !important;
+}
+
+.aboutherosection h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: var(--font-teko);
+}
+
+.aboutherosection p {
+  font-size: 16px;
+  font-family: var(--font-inter);
+  font-weight: 300;
+  text-align: justify;
+}
+
+.aboutherosection .imagesection {
+  width: 500px;
+  max-height: 50vh;
+}
+
+.aboutherosection .imagesection img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+
+/* company detail */
+.companydetail .row {
+  background-color: #f9f9f9;
+}
+
+.circle span {
+  height: 100px;
+  width: 100px;
+  border: 4px solid var(--primary-yellow);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-brown);
+  font-size: 20px;
+  font-weight: 800;
+  font-family: var(--font-inter);
+  padding: 10px;
+  margin: 4px 0;
+}
+
+.description {
+  margin-left: 200px;
+}
+
+.companydetail .description {
+  background: white;
+}
+
+.description h2 {
+  color: var(--primary-yellow);
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.description .descriptiondetail {
+  border-bottom: 1px solid var(--primary-yellow);
+}
+
+.description .descriptiondetail .highlightpoints {
+  color: var(--primary-brown);
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.descriptiondetail span {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--font-inter);
+  color: var(--primary-brown);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 6px;
+}
+
+.description .descriptiondetail i {
+  color: var(--primary-brown);
+  padding: 0 8px;
+}
+
+.description_particular {
+  display: none;
+}
+
+/* branchimagesection */
+
+.branchsection-custom-row {
+  display: flex;
+}
+
+.branchsection-custom-row .custombranchcolumn {
+  background: var(--primary-brown);
+  border-radius: 8px;
+  align-items: center;
+  margin: 0 45px;
+}
+
+.branchsection-custom-row .branchimagesection {
+  margin-top: -80px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.branchsection-custom-row .branchimagesection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* object-position: center center; */
+}
+
+.branchsection-custom-row .titlesection {
+  color: var(--white);
+  z-index: 2;
+}
+
+.branchsection-custom-row .abouticoncollection i {
+  color: var(--white);
+  font-size: 28px;
+  margin: 8px;
+}
+
+@media (max-width: 600px) {
+
+  .aboutherosection h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: var(--font-teko);
+  }
+
+  .aboutherosection .customherosection .col-md-6 {
+    margin-top:-50px;
+ }
+  .aboutherosection .imagesection img {
+    padding: 0 !important;
+    margin: 0 !important;;
+  }
+ .branchimagesection img {
+    width: 90%;
+  }
+  .custombranchcolumn {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 !important;
+  }
+
+  #companydescription {
+    display: block;
+    width: 100%;
+    padding: 0 !important;
+    margin: 20px 0 20px 8px !important;
+  }
+   #goaldescription,
+  #visiondescription,
+  #plandescription{
+      display:none;
+  }
+
+  #rightsite {
+    display: none;
+  }
+}
+
+@media (max-width:400px) {
+  .aboutherosection .imagesection img {
+    width: 100%;
+
+  }
+   #companydescription {
+    display: block;
+    width: 99%;
+    padding: 0 !important;
+    margin: 0 !important;
+   }
+
+
+
+ 
+  .custombranchcolumn {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+}

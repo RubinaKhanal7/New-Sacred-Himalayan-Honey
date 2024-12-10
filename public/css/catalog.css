@@ -1,0 +1,120 @@
+ @import url("./var.css");
+
+
+ .cartsectiionstart_container{
+   background: var(--off-yellow);
+ }
+
+ .cartsectiionstart_container_leftsection{
+  height: 12vh;
+  width: 44vw;
+  background-color: white;
+  border-radius: var(--border-radius);
+
+ }
+ .cartsectiionstart_container_leftsection img{
+  height: 50px;
+  width: 50px;
+ }
+ .cartsectiionstart_container_leftsection span {
+  font-family: var(--font-inter);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: var(--primary-brown);
+ }
+ .cartsectiionstart_container_leftsection .fa-trash-can{
+  color: var(--primary-yellow);
+  padding:4px 8px;
+ }
+ .cartsectiionstart_container_leftsection .fa-trash-can:hover{
+  color: red;
+ }
+ .cartsectiionstart_container_leftsection h5{
+  color: var(--primary-brown);
+ }
+
+ .cartsectiionstart_container_leftsection .incres_dec  i{
+  background: var(--primary-brown);
+  border-radius: var(--border-radius);
+  color: var(--white);
+  padding:4px 8px;
+  margin: 0 4px;
+ }
+ .cartsectiionstart_container_leftsection .incres_dec i:hover{
+  box-shadow: var(--box-shadow);
+  background: var(--primary-yellow);
+
+ }
+
+ .cartsectiionstart_container_rightsection{
+  width:25vw;
+  background-color: white;
+ padding: 20px;
+ border-radius: var(--border-radius);
+
+ }
+ .cartsectiionstart_container_rightsection h5 ,.cartsectiionstart_container_rightsection h4{
+  color: var(--primary-brown) ;
+ }
+
+ .buybutton{
+  background: var(--primary-brown);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: 20px;
+ }
+ .buybutton:hover{
+  background:var(--primary-yellow);
+
+ }
+ @media (max-width:900px){
+  .cartsectiionstart_container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+  .cartsectiionstart_container_leftsection{
+    width: 80vw;
+   }
+   .cartsectiionstart_container_rightsection{
+    width:80vw;
+    margin-top: 20px;
+   }
+
+
+ }
+ 
+ @media (max-width:500px){
+  .cartsectiionstart_container_leftsection span {
+    font-size: 12px;
+   }
+   .cartsectiionstart_container_leftsection .incres_dec  i{
+    font-size: 12px;
+
+   }
+
+ }
+ @media (max-width:400px){
+  .cartsectiionstart_container_leftsection{
+    display:inline;
+  
+  }
+  
+  .cartsectiionstart_container_leftsection img{
+    height: 20px;
+    width: 20px;
+   }
+   .cartsectiionstart_container_leftsection span {
+    font-size: 10px;
+   }
+   .cartsectiionstart_container_leftsection .incres_dec  i{
+    font-size: 10px;
+    margin: 0 1px ;
+   }
+  
+
+ }

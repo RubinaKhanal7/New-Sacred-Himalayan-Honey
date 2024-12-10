@@ -1,0 +1,120 @@
+@import url(./var.css);
+
+.cardsSectioncontent{
+     padding-bottom:20px ;
+}
+#cardsSectioncontent .card:hover{
+    box-shadow:  var(--box-shadow);
+}
+ .card-body .card-title{
+    font-family: var(--font-inter);
+    font-size: 20px;
+}
+
+#cardsSectioncontent .card-body .card-text{
+    font-size: 16px;
+}
+#cardsSectioncontent a {
+    background:var(--primary-brown);
+    color: var(--white);
+
+}
+#cardsSectioncontent .card-body a:hover{
+    text-decoration: underline;
+ 
+ }
+
+.cardimage{
+    padding-top:12px;
+     height:26vh;
+     width:100%!important;
+    
+}
+.cardimage img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    
+   
+}
+
+ @media (max-width: 600px){ 
+    .cardcustom{
+        margin: 0 !important;
+
+    }
+    #cardsSectioncontent .card-body .cardimage{
+         width:100%;
+    }
+.cardcustom{
+    width:40rem;
+    
+}
+    .card{
+         margin: 20px 0;
+    }
+
+ }
+
+ /* ==========================start of the  particular blogdetail ========================== */
+ .blogdetailssection{
+     margin: 20px 0 !important;
+
+ }
+ .blogdetailssection_right  img{
+    height: 100%;
+     width: 100%;
+     object-fit: cover;
+ }
+ .blogdetailssection_left h5{
+    font-family: var(--font-inter);
+    font-size: 20px;
+    text-transform: capitalize;
+
+ }
+ .blogdetailssection_left p{
+     font-size: 18px;
+ }
+ .blogdetailssection_left h6{
+    text-transform: uppercase;
+ }
+
+ .blogdetailssection_left .aasta{
+
+    color: var(--primary-yellow);
+}
+.blogdetailssection_left  .firstletter{
+    color: var(--primary-yellow);
+    font-size: 32px;
+    padding: 0 !important;
+    margin: 0 !important;
+
+#query{
+    border: 2px solid var(--primary-yellow)
+}
+
+.blogsearchss
+{
+ background: var(--primary-brown) !important;
+ padding: 6px !important;
+ border: none;
+ color: white;
+}
+
+
+@media (max-width:700px) {
+    .blogsearchss{
+        padding:4px;
+       
+    }
+    .querytaking{
+        margin-bottom: 20rem !important;
+
+    }
+    
+}
+.blogsingle-title{
+    font-weight:800;
+    font-size:40px;
+    
+}

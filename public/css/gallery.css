@@ -1,0 +1,149 @@
+@import url('./var.css');
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+ 
+  }
+  .wrap .grid-item {
+    margin-right:5rem ; /* Add margin between grid items */
+  }
+  .customgallery {
+    width:310px; /* Make images fill the container */
+    height: 44vh;   
+    border-radius: var(--border-radius);
+  }
+  .customgallery  img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    object-fit:cover;
+    
+
+  }
+  .particularimagesection{
+    padding-left:70px;
+  }
+  .startofgallerypage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  .customgallery .hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s; /* Add transition for smooth opacity change */
+  }
+  .customgallery:hover{
+  box-shadow:var(--box-shadow);
+   /* Show the hover image on hover */
+  }
+  .imagetitle {
+    background:var(--primary-brown);
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    font-size: 20px;
+    text-transform: uppercase;
+    width:92%;
+    border-radius:0 0 8px 8px;
+  }
+
+  @media (max-width:900px) {
+    .particularimagesection {
+        padding:0 !important;
+      }
+    
+  }
+  @media (max-width:600px) {
+    .imagetitle {
+        width:94.7%;
+      }
+
+  }
+  @media (max-width:300px) {
+    .imagetitle {
+        width:91%;
+      }
+
+  }
+  
+  
+  
+  
+    .image-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-image {
+            width: 350px;
+            height: 360px;
+        }
+        .main-image img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        
+      .sub-images {
+    display:flex;
+    flex-wrap:wrap;
+    weight:180px;
+    height:200px;
+}
+
+.sub-images img {
+    margin-right: 100px !important;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+  .sub-image{
+      width:7vw!important;
+     height:10vh!important;
+     margin:10px 10px 0 0;
+      
+  }
+ 
+ .sub-image img{
+      width:100% !important;
+      height:100% !important;
+      object-fit:cover;
+  }
+  
+  
+  
+  .videocard{
+    padding-top:12px;
+     /*height:40vh;*/
+    
+}
+.videocard iframe{
+    height:200px;
+    width:100%;
+    object-fit:cover;
+    
+   
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
